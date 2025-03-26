@@ -1,0 +1,28 @@
+{
+  "name": "commandline",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "bin": {
+    "commandline": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x ./build/index.js",
+    "inspector": "npx @modelcontextprotocol/inspector node build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "typescript": "^5.8.2"
+  }
+}

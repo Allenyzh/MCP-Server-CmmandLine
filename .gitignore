@@ -1,0 +1,22 @@
+-e # Node modules
+node_modules/
+
+# Build output
+build/
+
+# Logs
+logs/
+
+# Lock files
+package-lock.json
+pnpm-lock.yaml
+
+# Environment variables
+.env
+
+# TypeScript compiled files
+*.js
+*.d.ts
+
+# Miscellaneous
+.DS_Store
