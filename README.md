@@ -1,5 +1,7 @@
 # MCP-Server for command line
 
+> **The idea and code was coming from the bootcamp lectured by [hdcola](https://github.com/hdcola)**
+
 This is a simple mcp-server for connamd line using for muniplulating your mac with AI by natural language.
 
 ## How to use
